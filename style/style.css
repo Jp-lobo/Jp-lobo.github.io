@@ -1,0 +1,107 @@
+@font-face{
+	font-family: Letra;
+	font-style: normal;
+	font-weight: 100;
+	src: url(../multimedia/letra/Brygada1918-Italic-VariableFont_wght.ttf);
+}
+:root{
+    --col_fond : #eee;
+    --col_prin : #B77BE0;
+    --col_sec : #94B7F7;
+    --col_ter : #7BE0C3;
+}
+html{
+    font-family: Letra;
+    scroll-behavior: smooth;
+}
+section[id]{
+    scroll-margin-top: 70px;
+}
+body{
+    background-color: var(--col_fond);
+}
+
+/* ENCABEZADO */
+.header_div1{
+    width: 25%;
+    background-color:var(--col_sec);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 100%;
+    position: fixed;
+}
+    /* FOTO */
+    .encabezado img{
+        width: 65%;
+    }
+    /* MENU   */
+    .menu{
+        margin: 20% 20px;
+    }
+    .menu ul li{
+        margin: 12px;
+        font-size: 20px;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .menu ul li a:hover{
+        transform: scale(1.3);
+        font-weight: bold;
+        color: var(--col_fond);
+    }
+    /* CONTACTO */
+    .redes{
+        margin: 10% 10px;
+        color: var(--col_prin);
+    }
+    .redes ul li{
+        font-size: 20px;
+        display: inline-block;
+    }
+    .redes ul li:hover{
+        transform: scale(1.3) rotate(10deg);
+        color: var(--col_fond);
+    }
+
+/* --------------------------------------------------- */
+
+/* CONTENIDO */
+body main{
+    float: right;
+    width: 70%;
+    text-align: center;
+}
+section{
+    padding: 10px;
+    height: 600px;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    /* SOBRE MI  */
+    h1{
+        font-size: 40px;
+    }
+    .nombre{
+        font-size: 30px;
+    }
+
+    /* PROYECTOS */
+    .content img{
+        height: 80px;
+        width: 100px;
+    }
+
+    /* LENGUAJES */
+    .leng img{
+        height: 20px;
+        width: 70px;
+    }
+
