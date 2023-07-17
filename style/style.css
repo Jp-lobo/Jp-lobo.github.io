@@ -6,9 +6,9 @@
 }
 :root{
     --col_fond : #eee;
-    --col_prin : #B77BE0;
-    --col_sec : #94B7F7;
-    --col_ter : #7BE0C3;
+    --col_prin : #FF2505;
+    --col_sec : #111;
+    --col_ter : #F0D005;
 }
 html{
     font-family: Letra;
@@ -33,7 +33,7 @@ body{
 }
     /* FOTO */
     .encabezado img{
-        width: 65%;
+        width: 50%;
     }
     /* MENU   */
     .menu{
@@ -45,12 +45,16 @@ body{
     }
     .menu ul li a{
         text-decoration: none;
-        color: black;
+        color: var(--col_prin);
     }
     .menu ul li a:hover{
         transform: scale(1.3);
         font-weight: bold;
         color: var(--col_fond);
+        text-shadow: 0 0 50px var(--col_prin),
+            0 0 25px var(--col_prin),
+            0 0 50px var(--col_ter),
+            0 0 100px var(--col_prin);
     }
     /* CONTACTO */
     .redes{
@@ -64,6 +68,10 @@ body{
     .redes ul li:hover{
         transform: scale(1.3) rotate(10deg);
         color: var(--col_fond);
+        text-shadow: 0 0 50px var(--col_prin),
+            0 0 25px var(--col_prin),
+            0 0 50px var(--col_ter),
+            0 0 100px var(--col_prin);
     }
 
 /* --------------------------------------------------- */
@@ -91,6 +99,15 @@ section{
     }
     .nombre{
         font-size: 30px;
+        font-weight: bold;
+    }
+    .remarcar{
+        font-size: 50px;
+        color: var(--col_prin);
+        text-shadow: 0 0 30px var(--col_prin),
+            0 0 15px var(--col_prin),
+            0 0 30px var(--col_ter),
+            0 0 70px var(--col_ter);
     }
 
     /* PROYECTOS */
