@@ -6,10 +6,10 @@
 }
 :root{
     --col_fond : #eee;
-    --col_prin : #ff3805;
-    --col_sec : #111;
-    --col_ter : #F0D005;
-}
+    --col_prin : #0D7377;
+    --col_sec : #212121;
+    --col_ter : #32E0C4;
+} 
 
 html{
     font-family: Letra !important;
