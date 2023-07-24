@@ -17,6 +17,7 @@ html{
 }
 section[id]{
     scroll-margin-top: 70px;
+    display: block;
 }
 body{
     background-color: var(--col_fond);
@@ -97,6 +98,9 @@ section{
 
 
     /* SOBRE MI  */
+    #nombre{
+        padding-top: 150px;
+    }
     h1{
         font-size: 40px;
     }
@@ -134,8 +138,51 @@ section{
     }
 
     /* PROYECTOS */
-      
+    .projects{
+        display: contents;
+        margin: 10px;
+    }
+    .card{
+        border-radius: 10px;
+        margin: 15px;
+        border: 1px solid transparent radius 10px ;
+        border-top: none;
+        border-image: linear-gradient(to right, var(--col_sec), var(--col_prin), var(--col_sec)) 90;
+        display: inline-block;
+        box-shadow: 3px 3px 3px var(--col_sec);
+    }
+    .card:hover{
+        transform: scale(1.1);
+    }
+    .card img{
+         height: 200px;
+    }
+    .container {
+        background-image:linear-gradient(to top, var(--col_prin), var(--col_sec));
+        color: var(--col_fond);
+        border-bottom-left-radius: 3%;
+    }
+    .container p{
+        margin-top: 7px;
+        color: var(--col_fond);
+    }
+    .container a{
+        color: var(--col_fond);
+        font-size: 25px;
+    }
+    .container h4{
+        font-size: 25px;
+    }
 
+
+    /* EDUCACION */
+    #Educacion{
+        scroll-margin-top: 100px;    
+    }
+    .edu{
+        margin-top: 40%;
+        display: block;
+    }
     /* LENGUAJES */
     .leng img{
         height: 20px;
