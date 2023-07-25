@@ -160,7 +160,7 @@ section{
     .container {
         background-image:linear-gradient(to top, var(--col_prin), var(--col_sec));
         color: var(--col_fond);
-        border-bottom-left-radius: 3%;
+        border-bottom-left-radius: 3.3%;
     }
     .container p{
         margin-top: 7px;
@@ -169,6 +169,9 @@ section{
     .container a{
         color: var(--col_fond);
         font-size: 25px;
+    }
+    .container a i {
+        margin-bottom: 10px;
     }
     .container h4{
         font-size: 25px;
